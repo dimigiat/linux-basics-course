@@ -33,6 +33,7 @@ In this lecture we will learn how to create a SYSTEMD Service.
 
     ```
     [Service]
+    WorkingDirectory=/path/to/project
     ExecStart=/usr/bin/project-mercury.sh
     User=project_mercury
     Restart=on-failure
